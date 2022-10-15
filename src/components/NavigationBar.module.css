@@ -1,0 +1,40 @@
+.header{
+    background-color: brown;
+    color:wheat;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+.header ul {
+    list-style: none;
+    display: flex;
+    align-items: baseline;
+    margin: 0;
+    padding: 0;
+}
+.header li {
+    margin-left: 10px;
+}
+
+.header h1{
+    color: aliceblue;
+}
+
+.header a {
+    text-decoration: none;
+    color: aliceblue;
+}
+span {
+    background-color: wheat;
+    color: red;
+    margin: 5px;
+    padding: 0 7px;
+    border-radius: 15px;
+    margin-left: -2px;
+}
+.header a:hover,
+.header a:active,
+.header a.active {
+    color: black;
+}
